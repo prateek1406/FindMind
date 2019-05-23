@@ -7,6 +7,12 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <style>
+  html
+  {
+  
+  scroll-behavior: smooth;
+}
+  
   @media (min-width: 1199.98px) {
  .navbar-nav
  {
@@ -158,7 +164,7 @@
 <div class="card" style="font-size:20px;height : auto; min-height : 600px">
 <div  style=" float:right;"><p style="font-weight:bold;margin-top:10px;font-size:30px;text-align:center;">FinLit</p></div>
  <div class="col-7 offset-5" style="font-size:16px;font-weight:normal;"> Finlit Not just your mainstream expense manager, Finlit is a complete personal finance manager which brings all your expenses, investments, debts at your fingertips to track.Features like Finfit Score gives you an idea of your financial fitness, Finsim to simulate a financial decision to avoid a gut based potential bad decision just make the app more complete. The product is under final development stages and we expect to launch it soon on the Android Play Store.</div>
-<div><button class="btn btn-primary" style="margin-left:220px;margin-top:10px;" style="width:50%;"><a href="#footer" style="text-decoration:none;"></a>Know More</button></div>
+<div><button class="btn btn-primary" style="margin-left:220px;margin-top:10px;" style="width:50%;"onclick="window.location.href='#footer';">Contact Us</button></div>
 <div class="card2">
     <img src="finlit.png" style="width:100%;margin-top:-370px;position:absolute;height:130%;">
     
@@ -169,7 +175,7 @@
 <div class="card"  style="font-size:20px;height : auto; min-height : 600px">
 <div  style=" float:right;"><p style="font-weight:bold;margin-top:10px;font-size:30px;text-align:center;">LegalMind</p></div>
 <div class="col-7 offset-5" style="font-size:16px;margin-top:1px;font-weight:normal;">LegalMind Lawyers, to this day face the problem of organizing briefs, judgements, acts and what not. Legality not only organizes them better but also allows user to search blazingly fast through their own content as well as the web.Indexing more than 10 lakh cases, hundreds of acts and custom intent-based search and a intelligent recommendation system with a simple but elegant interface, legalMind is the one-stop solution. After all even lawyers needed a change. The product is under rapid development currently.</div>
-<div><button class="btn btn-primary" style="margin-left:220px;margin-top:10px;" style="width:50%;">Know More</button>
+<div><button class="btn btn-primary" style="margin-left:220px;margin-top:10px;" style="width:50%;" onclick="window.location.href='#footer';">Contact Us</button>
 </div>
 <div class="card2" style="padding-top:56.25%;">
     <img src="legalmind.gif" style="width:115%;margin-top:-250px;margin-left:-10px;">
@@ -180,7 +186,7 @@
 <div class="card"  style="font-size:20px;height : auto; min-height : 600px">
 <div   style=" float:right;"><p style="font-weight:bold;margin-top:20px;font-size:30px;text-align:center;">CreditMind</p></div>
 <div class="col-7 offset-5" style="font-size:16px;margin-top:6px;font-weight:normal">Our aim is to create an alternative dataset for better credit scoring that involves spent patterns from various ecommerce platforms through Emails,  analyzing the social and professional data from Facebook and Linkedin and taking out transactional information from the mobile  SMSes.</div>
- <div><button class="btn btn-primary" style="margin-left:220px;margin-top:10px;" style="width:50%;">Know More</button>
+ <div><button class="btn btn-primary" style="margin-left:220px;margin-top:10px;" onclick="window.location.href='#footer';"style="width:50%;">Contact Us</button>
 </div>
 <div class="card2" style="padding-top:56.25%;">
   <img src="creditmind.png" style="width:100%;margin-top:-280px;">
@@ -191,7 +197,7 @@
 <div class="card"  style="font-size:20px;height : auto; min-height : 600px">
 <div  style=" float:right;"><p style="font-weight:bold;margin-top:20px;font-size:30px;text-align:center;">AAvriti</p></div>
 <div class="col-7 offset-5" style="font-size:16px;margin-top:6px;">Sound based authentication Gone are the days of receiving those annoying text messages containing OTPs and manually entering them just to think that an extra layer of security protects you from frauds. NSDT or Near Sound Data Transfer makes the whole process hassle free plus more secure than you can "hear". The product is still under prototyping.</div>
-<div><button class="btn btn-primary" style="margin-left:220px;margin-top:20px;" style="width:50%;">Know More</button></div>
+<div><button class="btn btn-primary" style="margin-left:220px;margin-top:20px;" onclick="window.location.href='#footer';"style="width:50%;">Contact Us</button></div>
 
 <div class="card2" style="padding-top:56.25%;margin-top:120px;">
     <img src="aavriti.png" style="width:100%;margin-top:-350px;">
@@ -202,7 +208,7 @@
 </div>         
       
 <div style="margin-top:50px;"></div>
-<div class="container-fluid footer" style="background-color:#17105D;">
+<div class="container-fluid footer" style="background-color:#17105D;" id="footer">
 <div class="row">
   <div class="col-lg-6 col-xs-12" style="padding:10px;color:white;font-size:20px;text-align:left;margin-top:60px;line-height:40px;">
     <div class="contact" style="margin-left:50px;">
@@ -262,6 +268,7 @@ $(function() {
   
 });
 </script> 
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
