@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" initial-scale=1.0 content="width=100%">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <link href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -27,6 +27,19 @@
 
     
   }
+  .card
+  {
+      width:500px;
+      margin-left:15.50%;
+      height:3vh;
+      box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 5px 15px 0 rgba(0,0,0,0.3);
+      text-align:justify;
+      font-size:justify;
+  }
+  .unscrolled
+ {
+   background-color:transparent;
+ }
  
   .nav-link
     {
@@ -131,6 +144,14 @@
   {
     margin-top:-60px;
   }
+  .scrolled
+ {
+   background-color:#17105D;
+ }
+ .unscrolled
+ {
+   background-color:transparent;
+ }
   
 }
 
@@ -138,7 +159,7 @@
 @media screen and (max-width: 480px) { 
   .footer
   {
-    width:625px;
+    width:690px;
   }
   .nav-link
     {
@@ -146,6 +167,20 @@
      font-weight:bolder;
      font-size:15px;
      /* margin-left:2vw; */
+ }
+ .card
+  {
+      width:500px;
+      margin-left:80%;
+      height:3vh;
+      box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 5px 15px 0 rgba(0,0,0,0.3);
+      text-align:justify;
+      font-size:justify;
+  }
+  .scrolled
+ {
+   background-color:#17105D;
+   height:90px;
  }
  .nav-link:hover{
    border-bottom:3px solid white;;
@@ -159,7 +194,7 @@
   }
   .products
   {
-    margin-left:120px;
+    margin-left:180px;
   }
   .contact
   {
@@ -175,10 +210,10 @@
   }
   .main
   {
-    width:174vw;
+    width:660px;
     background-color:#17105D;
     color:white;
-    height:95vh;
+    height:600px;
   }
   .head1
   {
@@ -219,7 +254,7 @@
     margin-top:30px;
     margin-left:225px;
     width:30%;
-    height:10vh;
+    height:60px;
     background-color:#17105D;
 
 
@@ -262,15 +297,7 @@
   }
  
  
-.card
-  {
-      width:500px;
-      margin-left:15.50%;
-      height:3vh;
-      box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 5px 15px 0 rgba(0,0,0,0.3);
-      text-align:justify;
-      font-size:justify;
-  }
+
   .card2
   {
       position:absolute;
@@ -282,14 +309,8 @@
       /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 5px 15px 0 rgba(0,0,0,0.3); */
       
   }
- .scrolled
- {
-   background-color:#17105D;
- }
- .unscrolled
- {
-   background-color:transparent;
- }
+ 
+ 
 </style>
 </head>
 <body>
