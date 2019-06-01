@@ -159,7 +159,7 @@
 @media screen and (max-width: 480px) { 
   .footer
   {
-    width:730px;
+    width:780px;
   }
   .nav-link
     {
@@ -168,6 +168,7 @@
      font-size:15px;
      /* margin-left:2vw; */
  }
+ 
  .card
   {
       width:500px;
@@ -180,7 +181,10 @@
   .scrolled
  {
    background-color:#17105D;
-   height:90px;
+ }
+ .unscrolled
+ {
+   background-color:transparent;
  }
  .nav-link:hover{
    border-bottom:3px solid white;;
@@ -188,7 +192,7 @@
    width:12%;
  }
 
-  .form
+.form
   {
     margin-left:50px;
   }
@@ -210,7 +214,7 @@
   }
   .main
   {
-    width:720px;
+    width:780px;
     background-color:#17105D;
     color:white;
     height:600px;
@@ -234,7 +238,7 @@
   }
   .line{
     width:200px;
-    margin-left:270px;
+    margin-left:290px;
     margin-top:20px;
   }
   .line2
@@ -513,8 +517,17 @@ $(function() {
 });
 </script> 
 
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+
+  $(document).ready(function () {
+    $(".navbar-nav li a").click(function(event) {
+      $(".navbar-collapse").collapse('hide');
+    });
+  });
+</script>
 </body>
 </html>
