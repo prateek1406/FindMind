@@ -13,8 +13,149 @@
   scroll-behavior: smooth;
 }
 
+@media(min-width: 768px) and (max-width : 1199px) {
+
+  .techbox
+  {
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 5px 15px 0 rgba(0,0,0,0.3);
+    min-width:500px;
+    min-height:500px;
+    margin-left:290px;
+    margin-top:50px;
+    font-size:23px;
+    
+  }
+  .machine{
+
+    margin-bottom:100px;
+  }
+  .data
+  {
+    margin-top:-60px;
+  }
+  .products
+  {
+    margin-left:20px;
+    margin-top:500px;
+  }
+  .navbar-brand
+  {
+    font-size:35px;
+  }
+  .card
+  {
+      width:500px;
+      margin-left:25.50%;
+      height:3vh;
+      box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 5px 15px 0 rgba(0,0,0,0.3);
+      text-align:justify;
+      font-size:justify;
+  }
+  .heading
+  {
+    margin-top:600px;
+    text-align:center;
+  }
+  .unscrolled
+ {
+   background-color:transparent;
+ }
+ 
+ .nav-link
+    {
+     color:white !important;
+     font-weight:bolder;
+     font-size:30px;
+     margin-top:5px;
+     /* margin-left:2vw; */
+ }
+ .line2
+ {
+   width:20%;
+ }
+ 
+  .nav-link:hover{
+   border-bottom:3px solid white;;
+   border-radius:1px;
+ }
+ 
+  .box
+  {
+    min-width:750px;
+    height:350px;
+    margin-left:200px;
+    
+  }
   
-  @media (min-width: 1199.98px) {
+  .main { 
+   height:100vh;
+   width:97vw;
+  background: url('image.png');
+  background-size: cover;
+    
+}
+.head1
+{
+  margin-top:280px;
+  margin-left:100px;
+  width:auto;
+  font-size:200%;
+  text-transform:uppercase;
+  margin-top:280px;
+
+}
+.head2
+{
+  margin-left:280px;
+  width:auto;
+  font-size:120%;
+  text-transform:uppercase;
+  margin-top:10px;
+}
+.line 
+{
+  width:20px;
+  margin-left:360px;
+  margin-top:10px;
+}
+.para
+{
+  width:auto;
+  font-weight:normal;
+  font-size:30px;
+  margin-left:180px;
+  margin-top:20px;
+}
+.button
+  {
+    margin-left:450px;
+    margin-top:10px;
+    border:2px solid #17105D;
+    background-color:#17105D;
+    width:20%;
+    height:55px;
+  }
+  .button:hover
+  {
+    border:1px solid #17105D;
+    background-color:#17105D;
+  }
+  
+  .scrolled
+ {
+   background-color:#17105D;
+ }
+ .unscrolled
+ {
+   background-color:transparent;
+ }
+  
+}
+
+
+
+  
+  @media(min-width: 1200px) {
 
     .techbox
   {
@@ -24,6 +165,7 @@
     margin-left:50px;
     margin-top:50px;
     border-radius:10px;
+    font-size:16px;
 
     
   }
@@ -95,6 +237,10 @@
   background-size: cover;
     
 }
+.heading
+{
+  text-align:right;
+}
 .head1
 {
   margin-left:80px;
@@ -156,11 +302,15 @@
  {
    background-color:transparent;
  }
+ .products
+ {
+  margin-top:40px;
+ }
   
 }
 
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 767.98px) { 
   .footer
   {
     width:900px;
@@ -208,6 +358,7 @@
   .products
   {
     margin-left:290px;
+    margin-top:40px;
   }
   .contact
   {
@@ -280,6 +431,7 @@
     min-height:400px;
     margin-left:180px;
     margin-top:40px;
+    font-size:16px;
     
   }
   .data
@@ -327,14 +479,21 @@
       /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 5px 15px 0 rgba(0,0,0,0.3); */
       
   }
- 
+  .navbar-toggler:focus
+  {
+    outline:none;
+  }
+  .navbar-toggler, .navbar-toggler-icon {
+  border-color: white; /* Removes border color */
+  
+}
  
 </style>
 </head>
 <body>
  <div class="main">
-<nav class="navbar navbar-expand-xl navbar-light fixed-top unscrolled"> 
-  <a class="navbar-brand" href="#" style="color:white;padding:10px;">FindMind Analytics</a>
+<nav class="navbar navbar-expand-xl navbar-light fixed-top unscrolled "> 
+  <a class="navbar-brand" href="index.html" style="color:white;padding:10px;">FindMind Analytics</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon" style="border-color:white;margin-left:-120px;width:100px;height:85px;"></span>
   </button>
@@ -357,7 +516,7 @@
       </nav>
   <div class="row">
     <div class="col-lg-6"></div>
-<div class="col-lg-6" style="font-weight:bold;text-align:right;">
+<div class="col-xl-6 heading" style="font-weight:bold;">
   <div class="row">
        <div class="col-lg-10 col-xs-12 head1">BUILDING TECHNOLOGIES</div>
        <div class="col-lg-6 ol-xs-12 head2">THAT BENEFITS EVERYONE</div>
@@ -368,43 +527,42 @@
 </div>
 </div>
 </div>
-</div>
-<div class="col-lg-12 col-sm-12 col-xs-12 products" id="services" style="text-align:center;font-size:35px;margin-top:40px;">SERVICES</div>
+<div class="col-lg-12 col-sm-12 col-xs-12 products" id="services" style="text-align:center;font-size:35px;">SERVICES</div>
 <div class="container-fluid" style="margin-top:100px;">
 <div class="row">
-<div class="col-lg-8 col-xs-12">
+<div class="col-lg-8 col-xs-12 col-sm-7">
 <div class="container-fluid">
 <div class="row">
-<div class="col-lg-6 techbox data">
+<div class="col-lg-6 col-sm-6 techbox data">
   <img src="data.svg" style="width:50px;height:50px;margin-left:20px;margin-top:20px;">
-  <div style="text-align:center;font-weight:bold;font-size:16px;margin-top:10px;">Data Analytics</div>
-  <div style="text-align:justify;font-size:15px;margin-top:15px;">We solve business problems finding the best predictive model for your data, thus embedding the practices of the most advanced data scientists in the world. The work that takes weeks can now happen in one evening. We offer solutions under ECommerce, Gaming/ Digital Entertainment, Fintech, Legaltech, Telecom and Ad-Tech.</div>
+  <div style="text-align:center;font-weight:bold;margin-top:10px;">Data Analytics</div>
+  <div style="text-align:justify;margin-top:15px;">We solve business problems finding the best predictive model for your data, thus embedding the practices of the most advanced data scientists in the world. The work that takes weeks can now happen in one evening. We offer solutions under ECommerce, Gaming/ Digital Entertainment, Fintech, Legaltech, Telecom and Ad-Tech.</div>
 </div>
-<div class="col-lg-6 techbox api">
+<div class="col-lg-6 col-sm-6 techbox api">
   <img src="api.svg" style="width:50px;height:50px;margin-left:20px;margin-top:20px;">
-  <div style="text-align:center;font-weight:bold;font-size:16px;margin-top:10px;">APIaaS</div>
-  <div style="text-align:justify;font-size:15px;margin-top:15px;">FindMind gives all its client businesses’ employees access to any data they need with the help of a suite of trackers and full read/write API access. We offer solutions for Financial Account Aggregation, Stock Market Analytics, OCR and even Image Masking.</div>
+  <div style="text-align:center;font-weight:bold;margin-top:10px;">APIaaS</div>
+  <div style="text-align:justify;margin-top:15px;">FindMind gives all its client businesses’ employees access to any data they need with the help of a suite of trackers and full read/write API access. We offer solutions for Financial Account Aggregation, Stock Market Analytics, OCR and even Image Masking.</div>
 
 
 
 </div>
-<div class="col-lg-6 techbox">
+<div class="col-lg-6 col-sm-6 techbox">
 
   <img src="sound.svg" style="width:50px;height:50px;margin-left:20px;margin-top:20px;">
-  <div style="text-align:center;font-weight:bold;font-size:16px;margin-top:20px;">Two-factor Authentication using sound</div>
-  <div style="text-align:justify;font-size:15px;margin-top:15px;">We offer a new method of two-factor authentication to consumers who see an additional level of security as a chore. Using ambient sound as a two-factor authentication system. When the system confirms that the two devices are in close proximity – because they are both hearing the same sounds – it will log you in.</div>
+  <div style="text-align:center;font-weight:bold;margin-top:20px;">Two-factor Authentication using sound</div>
+  <div style="text-align:justify;margin-top:15px;">We offer a new method of two-factor authentication to consumers who see an additional level of security as a chore. Using ambient sound as a two-factor authentication system. When the system confirms that the two devices are in close proximity – because they are both hearing the same sounds – it will log you in.</div>
 </div>
-<div class="col-lg-6 techbox machine">
+<div class="col-lg-6 col-sm-6 techbox machine">
   <img src="machine.svg" style="width:50px;height:50px;margin-left:20px;margin-top:20px;">
-  <div style="text-align:center;font-weight:bold;font-size:16px;margin-top:10px;"> Machine Learning</div>
-  <div style="text-align:justify;font-size:15px;margin-top:15px;">Offering artificial intelligence solutions, we help startups and SMEs in automating processes and use the best from machine learning tools. Our quality services help business profit to skyrocket and give clients utmost satisfaction. </div>
+  <div style="text-align:center;font-weight:bold;margin-top:10px;"> Machine Learning</div>
+  <div style="text-align:justify;margin-top:15px;">Offering artificial intelligence solutions, we help startups and SMEs in automating processes and use the best from machine learning tools. Our quality services help business profit to skyrocket and give clients utmost satisfaction. </div>
 </div>
 
 </div>
 </div>
 </div>
 
-<div class="col-lg-4 col-xs-12 box">
+<div class="col-lg-4 col-xs-12 col-md-12 box">
 <div style="text-align:left;color:#17105D;font-size:20px;margin-left:-90px;">We are offering</div>
 <div class="col-lg-4 col-xs-12 line2" style="text-align:left;border-bottom:2px solid rgb(16, 185, 241);margin-left:-90px;margin-top:10px;"></div>
   <div style="text-align:left;font-weight:bold;font-size:25px;margin-left:-90px;margin-top:15px;">Awesome Customer Service</div>
@@ -418,7 +576,7 @@
 <div class="col-lg-12 col-sm-12 col-xs-12 products" id="products"style="text-align:center;font-size:40px;margin-top:40px;">PRODUCTS</div>
 <div class="container-fluid">
 <div class="row">
-<div class="col-lg-6  col-sm-12 col-xs-12" style="margin-top:50px;">
+<div class="col-xl-6 col-sm-12 col-lg-12 col-xs-12" style="margin-top:50px;">
 <div class="card" style="font-size:20px;height : auto; min-height : 600px">
 <div  style=" float:right;"><p style="font-weight:bold;margin-top:10px;font-size:30px;text-align:center;">FinLit</p></div>
  <div class="col-7 offset-5" style="font-size:16px;font-weight:normal;"> Finlit Not just your mainstream expense manager, Finlit is a complete personal finance manager which brings all your expenses, investments, debts at your fingertips to track.Features like Finfit Score gives you an idea of your financial fitness, Finsim to simulate a financial decision to avoid a gut based potential bad decision just make the app more complete. The product is under final development stages and we expect to launch it soon on the Android Play Store.</div>
@@ -429,7 +587,7 @@
 </div>
 </div>
  </div>
-<div class="col-lg-6 col-sm-12 col-xs-12" style="margin-top:50px;">
+<div class="col-xl-6 col-sm-12 col-lg-12 col-xs-12" style="margin-top:50px;">
 <div class="card"  style="font-size:20px;height : auto; min-height : 600px">
 <div  style=" float:right;"><p style="font-weight:bold;margin-top:10px;font-size:30px;text-align:center;">LegalMind</p></div>
 <div class="col-7 offset-5" style="font-size:16px;margin-top:1px;font-weight:normal;">LegalMind Lawyers, to this day face the problem of organizing briefs, judgements, acts and what not. Legality not only organizes them better but also allows user to search blazingly fast through their own content as well as the web.Indexing more than 10 lakh cases, hundreds of acts and custom intent-based search and a intelligent recommendation system with a simple but elegant interface, legalMind is the one-stop solution. After all even lawyers needed a change. The product is under rapid development currently.</div>
@@ -440,7 +598,7 @@
 </div>
 </div>
 </div>
-<div class="col-lg-6 col-sm-12 col-xs-12" style="margin-top:40px;">
+<div class="col-xl-6 col-sm-12 col-lg-12 col-xs-12" style="margin-top:40px;">
 <div class="card"  style="font-size:20px;height : auto; min-height : 600px">
 <div   style=" float:right;"><p style="font-weight:bold;margin-top:20px;font-size:30px;text-align:center;">CreditMind</p></div>
 <div class="col-7 offset-5" style="font-size:16px;margin-top:6px;font-weight:normal">Our aim is to create an alternative dataset for better credit scoring that involves spent patterns from various ecommerce platforms through Emails,  analyzing the social and professional data from Facebook and Linkedin and taking out transactional information from the mobile  SMSes.</div>
@@ -451,7 +609,7 @@
 </div>
 </div>
 </div>
-<div class="col-lg-6 col-sm-12  col-xs-12" style="margin-top:40px;">
+<div class="col-xl-6 col-sm-12 col-lg-12 col-xs-12" style="margin-top:40px;">
 <div class="card"  style="font-size:20px;height : auto; min-height : 600px">
 <div  style=" float:right;"><p style="font-weight:bold;margin-top:20px;font-size:30px;text-align:center;">AAvriti</p></div>
 <div class="col-7 offset-5" style="font-size:16px;margin-top:6px;">Sound based authentication Gone are the days of receiving those annoying text messages containing OTPs and manually entering them just to think that an extra layer of security protects you from frauds. NSDT or Near Sound Data Transfer makes the whole process hassle free plus more secure than you can "hear". The product is still under prototyping.</div>
