@@ -56,6 +56,7 @@ That Benefits Everyone">
   scroll-behavior: smooth;
 }
 
+/*For mobile use */
 @media(max-width: 900px) { 
 
 
@@ -132,7 +133,7 @@ That Benefits Everyone">
     margin-left:13px;
     margin-top:40px;
     border-radius:10px;
-    font-size:16px;
+    font-size:15px;
 
     
   }
@@ -142,15 +143,93 @@ That Benefits Everyone">
     height:500px;
     margin-left:100px;
     margin-top:40px;
+    font-size:15px;
     
   }
   .line2
   {
     width:50%;
   }
+  .card
+  {
+      max-height:800px;
+      margin-left:10px;
+      box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 5px 15px 0 rgba(0,0,0,0.3);
+      text-align:justify;
+      font-size:justify;
+      width:380px;
+  }
+  .products1{
+
+    margin-left:38px;
+  }
+  .product_img{
+
+  width:100px;
+  margin-top:50px;
+  position:absolute;
+  height:200px;
+  margin-left:-25px;
+}
+
+.product_text{
+
   
+font-size:16px;
+font-weight:normal;
+text-align:justify;
+width:290px;
+margin-left:100px;
+}
+.know_more{
+
+  margin-left:100px;
+  width:30%;
+  margin-bottom:50px;
+  margin-top:10px;
+}
+.legalmind_img{
+
+  width:150px;
+  margin-top:50px;
+  position:absolute;
+  height:100px;
+  margin-left:-35px;
 
 }
+.creditmind_img{
+  width:100px;
+  margin-top:1px;
+  position:absolute;
+  height:200px;
+  margin-left:-25px;
+
+}
+.aavriti_img{
+  width:100px;
+  margin-top:1px;
+  position:absolute;
+  height:200px;
+  margin-left:-25px;
+
+}
+.know_more1{
+  margin-left:100px;
+  width:30%;
+  margin-bottom:50px;
+  margin-top:10px;
+
+}
+.know_more2{
+  margin-left:100px;
+  width:30%;
+  margin-bottom:50px;
+  margin-top:10px;
+
+}
+
+}
+/*For large devices*/
 @media (min-width: 900px) {
 
 
@@ -171,7 +250,7 @@ That Benefits Everyone">
   }
  .left
  {
-   margin-left:600px;
+   margin-left:550px;
  }
  
   .nav
@@ -263,8 +342,81 @@ That Benefits Everyone">
 
     margin-top:30px;
   }
+  .card
+  {
+      width:500px;
+      margin-left:15.50%;
+      min-height:500px;
+      height:3vh;
+      box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 5px 15px 0 rgba(0,0,0,0.3);
+      text-align:justify;
+      font-size:justify;
+  }
+  .product_img{
 
+    width:100%;
+    transform:translateX(-50%);
+    transform:translateY(5%);
+    /* position:absolute; */
+    top:0;
+    height:100%;
+    margin-left:-50px;
+  }
+  .product_text{
 
+  
+  font-size:16px;
+  font-weight:normal;
+  text-align:justify;
+  margin-left:-50px;
+  
+ 
+  }
+  .know_more{
+
+  
+  margin-left:170px;
+  margin-top:-150px;
+  width:25%;
+  }
+  .know_more1{
+
+  
+margin-left:170px;
+margin-top:-150px;
+width:25%;
+margin-top:-350px;
+}
+.know_more2{
+
+  
+margin-left:170px;
+margin-top:-150px;
+width:25%;
+margin-top:-350px;
+}
+
+  .legalmind_img{
+
+    width:135%;
+    margin-top:100px;
+    margin-left:-50px;
+    height:30%;
+
+  }
+  .creditmind_img{
+
+    width:100%;
+    margin-top:2px;
+    margin-left:-60px;
+   
+  }
+  .aavriti_img{
+
+    width:100%;
+    margin-top:1px;
+    margin-left:-40px;
+  }
 }
 
 
@@ -310,7 +462,17 @@ body{
    border-bottom:3px solid white;
    border-radius:1px;
  }
-
+ /* .card2
+  {
+      position:absolute;
+      margin-left:-50px;
+      margin-top:65px;
+      width:50%;
+      padding-top:75%;
+      height:60%;
+      /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 5px 15px 0 rgba(0,0,0,0.3); */
+      
+  
  
   
 </style>
@@ -396,6 +558,57 @@ body{
 
 </div>
 
+</div>
+<div class="col-lg-12 col-sm-12 col-xs-12 products1" id="products"style="text-align:center;font-size:40px;margin-top:40px;">PRODUCTS</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-xl-6 col-sm-12 col-lg-12 col-xs-12" style="margin-top:50px;">
+<div class="card">
+  <div class="row">
+<div class="col-12"><p style="font-weight:bold;margin-top:10px;font-size:30px;text-align:center;">FinLit</p></div>
+<div class="col-lg-5 col-xs-5"><img src="assets/finlit.webp"  class="product_img"></div>
+ <div class="col-lg-7 col-xs-7 product_text">Not just your mainstream expense manager, Finlit is a complete personal finance manager which brings all your expenses, investments, debts at your fingertips to track.Features like Finfit Score gives you an idea of your financial fitness, Finsim to simulate a financial decision to avoid a gut based potential bad decision just make the app more complete. The product is under final development stages and we expect to launch it soon on the Android Play Store.</div>
+<div class="col-12"><button class="btn btn-primary know_more">Know More</button></div>
+
+</div>
+</div>
+</div>
+<div class="col-xl-6 col-sm-12 col-lg-12 col-xs-12" style="margin-top:50px;">
+<div class="card">
+  <div class="row">
+<div class="col-12"><p style="font-weight:bold;margin-top:10px;font-size:30px;text-align:center;">LegalMind</p></div>
+<div class="col-lg-5 col-xs-5"> <img src="assets/legalmind.gif" class="legalmind_img"></div>
+<div class="col-lg-7 col-xs-7 product_text">Lawyers, to this day face the problem of organizing briefs, judgements, acts and what not. Legality not only organizes them better but also allows user to search blazingly fast through their own content as well as the web.Indexing more than 10 lakh cases, hundreds of acts and custom intent-based search and a intelligent recommendation system with a simple but elegant interface, legalMind is the one-stop solution. After all even lawyers needed a change. The product is under rapid development currently.</div>
+<div class="col-12"><button class="btn btn-primary know_more" style="margin-top:8px;">Know More</button>
+</div>
+   
+</div>
+</div>
+</div>
+<div class="col-xl-6 col-sm-12 col-lg-12 col-xs-12" style="margin-top:40px;">
+<div class="card">
+  <div class="row">
+<div class="col-12"><p style="font-weight:bold;margin-top:20px;font-size:30px;text-align:center;">CreditMind</p></div>
+<div class="col-lg-5 col-xs-5"> <img src="assets/creditmind.webp" class="creditmind_img"></div>
+<div class="col-lg-7 col-xs-7 product_text" style="font-size:16px;margin-top:6px;font-weight:normal">Our aim is to create an alternative dataset for better credit scoring that involves spent patterns from various ecommerce platforms through Emails,  analyzing the social and professional data from Facebook and Linkedin and taking out transactional information from the mobile  SMSes.</div>
+ <div class="col-12"><button class="btn btn-primary know_more1">Know More</button>
+</div>
+ 
+</div>
+</div>
+</div>
+<div class="col-xl-6 col-sm-12 col-lg-12 col-xs-12" style="margin-top:40px;">
+<div class="card">
+  <div class="row">
+<div class="col-12"><p style="font-weight:bold;margin-top:20px;font-size:30px;text-align:center;">AAvriti</p></div>
+<div class="col-lg-5 col-xs-5 "><img src="assets/aavriti.webp" class="aavriti_img"></div>
+<div class="col-lg-7 col-xs-7 product_text" style="font-size:16px;margin-top:6px;">Sound based authentication Gone are the days of receiving those annoying text messages containing OTPs and manually entering them just to think that an extra layer of security protects you from frauds. NSDT or Near Sound Data Transfer makes the whole process hassle free plus more secure than you can "hear". The product is still under prototyping.</div>
+<div class="col-12"><button class="btn btn-primary know_more2">Know More</button></div>
+    
+</div>
+</div>
+</div>
+</div>
 </div>
 <script>
 $(function() {
