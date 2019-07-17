@@ -61,35 +61,41 @@ That Benefits Everyone">
 
 
   .main{
-    width:420px;
+    width:450px;
     background-color:#17105D;
     color:white;
-    height:600px;
+    height:500px;
 
 }
 .navbar-brand
   {
     font-size:20px;
   }
+  .navbar-collapse
+  {
+    background-color:#17105D;
+  }
   .head1
 {
-  margin-left:70px;
-  margin-top:-500px;
-  width:auto;
+  margin-left:90px;
+  margin-top:-400px;
+  width:400px;
+  height:100px;
   color:white;
-  font-size:120%;
+  font-size:20px;
   text-transform:uppercase;
   /* margin-top:280px; */
 
 }
 .head2
 {
-  margin-left:90px;
+  margin-left:120px;
   width:auto;
+  height:50px;
   font-size:100%;
   color:white;
   text-transform:uppercase;
-  margin-top:-470px;
+  margin-top:-360px;
 }
 .line 
 {
@@ -102,23 +108,27 @@ That Benefits Everyone">
   width:350px;
   font-weight:normal;
   font-size:20px;
-  margin-left:40px;
-  color:White;
-  margin-top:-400px;
-  text-align:center;
+  margin-left:65px;
+  color:white;
+  margin-top:-300px;
+  text-align:justify;
+  height:150px;
 }
 .button
   {
     margin-left:170px;
-    margin-top:-200px;
+    margin-top:-100px;
     height:40px;
-    border:2px solid #17105D;
-    background-color:#17105D;
+    border:2px solid rgb(48, 42, 116);
+    background-color:rgb(48, 42, 116);
+    width:30%;
   }
   .button:hover
   {
     border:1px solid #17105D;
-    background-color:#17105D;
+    background-color:rgb(48, 42, 116);
+    cursor:pointer;
+
   }
 .products{
 
@@ -157,7 +167,7 @@ That Benefits Everyone">
       box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 5px 15px 0 rgba(0,0,0,0.3);
       text-align:justify;
       font-size:justify;
-      width:360px;
+      width:400px;
   }
   .products1{
 
@@ -227,6 +237,18 @@ margin-left:90px;
   margin-top:10px;
 
 }
+.timeline{
+
+  margin-left:40px;
+}
+.footer
+  {
+    width:450px;
+  }
+  .address
+  {
+    margin-left:-10px;
+  }
 
 }
 /*For large devices*/
@@ -260,20 +282,21 @@ margin-left:90px;
  .heading
 {
   text-align:right;
+  font-weight:bold;
 }
 .head1
 {
-  margin-left:70px;
+  margin-left:720px;
   margin-top:-350px;
-  width:auto;
-  font-size:200%;
+  width:330px;
+  font-size:180%;
   text-transform:uppercase;
   /* margin-top:280px; */
 
 }
 .head2
 {
-  margin-left:280px;
+  margin-left:940px;
   width:auto;
   font-size:100%;
   text-transform:uppercase;
@@ -282,21 +305,21 @@ margin-left:90px;
 .line 
 {
   width:20px;
-  margin-left:400px;
-  margin-top:-200px;
+  margin-left:900px;
+  margin-top:-5vh;
 }
 .para
 {
   width:auto;
   font-weight:normal;
   font-size:20px;
-  margin-left:170px;
+  margin-left:840px;
   margin-top:-250px;
 }
 .button
   {
-    margin-left:510px;
-    margin-top:-100px;
+    margin-left:1170px;
+    margin-top:-120px;
     height:40px;
     border:2px solid #17105D;
     background-color:#17105D;
@@ -417,6 +440,16 @@ margin-top:-350px;
     margin-top:1px;
     margin-left:-40px;
   }
+  .copyright
+ {
+  margin-left:-150px;
+  margin-top:40px;
+ }
+ .address{
+
+  margin-left:50px;
+ }
+ 
 }
 
 
@@ -476,8 +509,9 @@ body{
  
   
 </style>
+</head>
 <div class="main">
-<nav class="navbar navbar-expand-xl  navbar-dark fixed-top unscrolled "> 
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark  unscrolled "> 
   <a class="navbar-brand" href="https://www.findmind.in" style="color:white;padding:10px;"><img class="logo" src="assets/logo.webp">FindMind Analytics</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon" style="border-color:white;margin-left:-50px;width:30px;height:55px;"></span>
@@ -499,17 +533,16 @@ body{
     </ul>
     </div>
       </nav>
-</div>
+    </div>
+ <div class="row">
+<div class="col-lg-6"></div>
+<div class="col-xl-6 heading" style="position:absolute;">
 <div class="row">
-  <div class="col-lg-6"></div>
-<div class="col-lg-6 heading" style="font-weight:bold;">
-<div class="row">
-     <div class="col-lg-10 col-xs-12 head1">BUILDING TECHNOLOGIES</div>
-     <div class="col-lg-6 ol-xs-12 head2">THAT BENEFITS EVERYONE</div>
-     <!-- <div class="col-lg-4 col-xs-12 line" style="border-bottom:3px solid rgb(16, 185, 241);"></div> -->
+<div class="col-lg-10 col-xs-12 head1">BUILDING TECHNOLOGIES</div>
+<div class="col-lg-6 ol-xs-12 head2">THAT BENEFITS EVERYONE</div>
+<!-- <div class="col-lg-4 col-xs-12 line" style="border-bottom:3px solid rgb(16, 185, 241);"></div> -->
 <div class="col-lg-8 para">We use state of the art technologies like Artificial Intelligence , Machine learning, Bigdata analytics and NSDT to make smarter intelligent and affordable solutions.</div>
 <button class="btn btn-primary button" onclick="window.location.href='#footer';">Contact Us</button>
-</div>
 </div>
 </div>
 </div>
@@ -610,6 +643,151 @@ body{
 </div>
 </div>
 </div>
+<div class="col-lg-12 col-sm-12 col-xs-12 products" id="career" style="text-align:center;font-size:35px;margin-top:60px;">ACHIEVEMENTS</div>
+<section class="cd-h-timeline js-cd-h-timeline margin-bottom-md timeline">
+  <!-- <p class="text-center margin-top-md margin-bottom-xl">👈 <a class="text--inherit" href="https://codyhouse.co/gem/horizontal-timeline/">Article &amp; Download</a></p> -->
+
+  <div class="cd-h-timeline__container container">
+    <div class="cd-h-timeline__dates">
+      <div class="cd-h-timeline__line">
+        <ol>
+          <li><a href="#0" data-date="16/01/2014" class="cd-h-timeline__date cd-h-timeline__date--selected">February 2018</a></li>
+          <!-- <li><a href="#0" data-date="28/02/2014" class="cd-h-timeline__date"></a></li> -->
+          <li><a href="#0" data-date="20/04/2014" class="cd-h-timeline__date">June 2018</a></li>
+          <li><a href="#0" data-date="20/05/2014" class="cd-h-timeline__date">June 2018</a></li>
+          <li><a href="#0" data-date="09/07/2014" class="cd-h-timeline__date">July 2018</a></li>
+          <li><a href="#0" data-date="30/08/2014" class="cd-h-timeline__date">December 2018</a></li>
+          <li><a href="#0" data-date="15/09/2014" class="cd-h-timeline__date">June 2019</a></li>
+          <li><a href="#0" data-date="15/09/2014" class="cd-h-timeline__date">June 2019</a></li>
+      
+          
+          
+        </ol>
+
+        <span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
+      </div> <!-- .cd-h-timeline__line -->
+    </div> <!-- .cd-h-timeline__dates -->
+      
+    <ul>
+      <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev cd-h-timeline__navigation--inactive">Prev</a></li>
+      <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a></li>
+    </ul>
+  </div> <!-- .cd-h-timeline__container -->
+
+  <div class="cd-h-timeline__events">
+    <ol>
+      <li class="cd-h-timeline__event cd-h-timeline__event--selected text-component">
+        <div class="cd-h-timeline__event-content container">
+          <!-- <h2 class="cd-h-timeline__event-title">Horizontal Timeline</h2> -->
+          <!-- <em class="cd-h-timeline__event-date">February 2018</em> -->
+          <p class="cd-h-timeline__event-description color-contrast-medium"> 
+              Incubated in VIT-TBI incubator, at Vellore Institute of Technology, Vellore.
+          </p>
+        </div>
+      </li>
+
+      <li class="cd-h-timeline__event text-component">
+        <div class="cd-h-timeline__event-content container">
+          <!-- <h2 class="cd-h-timeline__event-title">Event title here</h2> -->
+          <!-- <em class="cd-h-timeline__event-date">June 2018</em> -->
+          <p class="cd-h-timeline__event-description color-contrast-medium"> 
+              Qualified for DigitalOcean Cloud startup grant, awarded 500 USD in cloud credits.
+          </p>
+        </div>
+      </li>
+
+      <li class="cd-h-timeline__event text-component">
+        <div class="cd-h-timeline__event-content container">
+          <!-- <h2 class="cd-h-timeline__event-title">Event title here</h2> -->
+          <!-- <em class="cd-h-timeline__event-date">June 2018</em> -->
+          <p class="cd-h-timeline__event-description color-contrast-medium"> 
+              Winners of Annual fintech challenge by Fullerton India Credit Company, awarded a cash prize of INR 15,00,000.
+          </p>
+        </div>
+      </li>
+
+      <li class="cd-h-timeline__event text-component">
+        <div class="cd-h-timeline__event-content container">
+          <!-- <h2 class="cd-h-timeline__event-title">Event title here</h2> -->
+          <!-- <em class="cd-h-timeline__event-date">July 2018</em> -->
+          <p class="cd-h-timeline__event-description color-contrast-medium"> 
+              Registered with Startup India, an initiative of the Government of India.
+          </p>
+        </div>
+      </li>
+
+      <li class="cd-h-timeline__event text-component">
+        <div class="cd-h-timeline__event-content container">
+          <!-- <h2 class="cd-h-timeline__event-title">Event title here</h2> -->
+          <!-- <em class="cd-h-timeline__event-date">December 2018</em> -->
+          <p class="cd-h-timeline__event-description color-contrast-medium"> 
+              Qualified for IBM catalyst programme, awarded 120,000 USD in cloud credits.
+          </p>
+        </div>
+      </li>
+
+      <li class="cd-h-timeline__event text-component">
+        <div class="cd-h-timeline__event-content container">
+          <!-- <h2 class="cd-h-timeline__event-title">Event title here</h2> -->
+          <!-- <em class="cd-h-timeline__event-date">June 2019</em> -->
+          <p class="cd-h-timeline__event-description color-contrast-medium"> 
+              Winners of Annual fintech challenge by Fullerton India Credit Company, awarded a cash prize of INR 7,00,000.
+          </p>
+        </div>
+      </li>
+
+      <li class="cd-h-timeline__event text-component">
+        <div class="cd-h-timeline__event-content container">
+          <!-- <h2 class="cd-h-timeline__event-title">Event title here</h2> -->
+          <!-- <em class="cd-h-timeline__event-date">June 2019</em> -->
+          <p class="cd-h-timeline__event-description color-contrast-medium"> 
+              Qualified for Excubator, a start-up incubator and an innovation advisor to global enterprises, awarded 5000 USD from Amazon Web Services in cloud credits.
+          </p>
+        </div>
+      </li>
+
+     
+    </ol>
+  </div> <!-- .cd-h-timeline__events -->
+</section>
+<div style="margin-top:100px;"></div>
+<div class="container-fluid footer" style="background-color:#17105D;" id="footer">
+<div class="row">
+  <div class="col-lg-5 col-xs-12 address" style="padding:10px;color:white;font-size:20px;text-align:left;margin-top:60px;line-height:40px;">
+    <div class="contact" style="margin-left:70px;">
+    <div style="margin-left:30px;"><a href="https://goo.gl/maps/QBVmEudpgQ71oEbJ6" style="text-decoration:none;color:white;cursor:pointer;" target="_blank"><i class="lni-map-marker"></i>  TT002-D Technology Business Incubation</a></div>
+      <div style="margin-left:25px;"><a href="https://goo.gl/maps/QBVmEudpgQ71oEbJ6" style="text-decoration:none;color:white;cursor:pointer;" target="_blank">Vellore Institute Of Technology</a></div>
+      <div style="margin-left:25px;"><a href="https://goo.gl/maps/QBVmEudpgQ71oEbJ6" style="text-decoration:none;color:white;cursor:pointer;" target="_blank"> Vellore, Tamil Nadu </a></div>
+     
+    </div>
+    <div style="margin-top:30px;margin-left:80px;"class="mail"><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=support@findmind.in" style="text-decoration:none;color:white;cursor:pointer;" target="_blank"><i class="lni-envelope" style="font-size:25px;margin-top:20px;margin-left:10px;padding:10px;"></i><span style="margin-left:4px;"></span>support@findmind.in</a></div>
+    <div style="margin-top:20px;padding:20px;margin-left:70px;" class="icon"><a href="https://www.linkedin.com/company/legalmind/" style="text-decoration:none;color:white;" target="_blank"><i class="lni-linkedin-original" style="color:white;font-size:50px;margin-left:70px;"></i></a></div>
+    <div style="margin-top:-100px;padding:20px;margin-left:90px;" class="icon"><a href="https://www.facebook.com/lfindmind.legal/" style="text-decoration:none;color:white;" target="_blank"><i class="lni-facebook-original" style="color:white;font-size:50px;"></i></a></div>
+</div>
+ <div class="col-lg-6 col-xs-12 form" style="padding:10px;color:white;font-size:18px;margin-top:50px;line-height:40px;">
+  <div style="margin-left:90px;">Contact Us:</div>
+  <form style="width:60%;margin-top:10px;margin-left:90px;">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Your Name...">
+      </div>
+      <div class="form-group">
+          <input type="email" class="form-control" placeholder="Your Email...">
+        </div>
+  
+        <div class="form-group">
+            <textarea class="form-control" placeholder="Your Message..." rows="3"></textarea>
+          </div>
+          <div class="form-group">
+          <button type="submit" class="btn btn-primary" style="width:30%;">Submit</button>
+          </div>
+        </form>
+  </div>
+  <div class="col-lg-12 col-xs-12">
+
+    <div class="copyright" style="color:white;line-height:50px;text-align:center;font-size:14px;"><i class="far fa-copyright" style="color:white;font-size:14px;"></i>  FindMind Analytics PVT LTD</div>
+  </div>
+  </div>
+  </div>
 <script>
 $(function() {
     var header = $(".navbar");
